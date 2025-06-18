@@ -64,7 +64,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "mariadb-server, openjdk-21-jdk"
+    packages = "mariadb-server, openjdk-17-jre"
 
     [resources.database]
     type = "mysql"
