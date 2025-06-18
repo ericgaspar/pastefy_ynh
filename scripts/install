@@ -52,9 +52,9 @@ pushd "$install_dir/frontend"
 	ynh_hide_warnings ynh_exec_as_app npm run build
 popd
 
-pushd "$install_dir/backend"
-	ynh_hide_warnings ynh_exec_as_app mvn clean package
-popd
+#pushd "$install_dir/backend"
+#	ynh_hide_warnings ynh_exec_as_app mvn clean package
+#popd
 
 #=================================================
 # START SYSTEMD SERVICE
